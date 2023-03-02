@@ -9,17 +9,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://escale.agency
+ * @link              https://nativo.team
  * @since             1.0.0
  * @package           YotpoReviewsForGoogle
  *
  * @wordpress-plugin
  * Plugin Name:       Yotpo Reviews For Google
- * Plugin URI:        https://escale.agency
+ * Plugin URI:        https://nativo.team
  * Description:       Enable Yotpo reviews on google search results for your products
  * Version:           1.0.0
- * Author:            Escale
- * Author URI:        https://escale.agency
+ * Author:            Renan Diaz
+ * Author URI:        https://nativo.team
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       yotpo-rich-card-reviews
