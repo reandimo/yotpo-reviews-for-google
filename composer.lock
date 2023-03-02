@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1e6245b808cc6f619b945e41449148d",
+    "packages": [
+        {
+            "name": "nategood/httpful",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/nategood/httpful/issues",
+                "source": "https://github.com/nategood/httpful/tree/v0.3.2"
+            },
+            "time": "2020-01-25T01:13:13+00:00"
+        },
+        {
+            "name": "yotpo/yotpo",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YotpoLtd/yotpo-php.git",
+                "reference": "c4cb9c67ee56b55679b909ec3d9393508f1f4dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YotpoLtd/yotpo-php/zipball/c4cb9c67ee56b55679b909ec3d9393508f1f4dc7",
+                "reference": "c4cb9c67ee56b55679b909ec3d9393508f1f4dc7",
+                "shasum": ""
+            },
+            "require": {
+                "nategood/httpful": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@dev",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yotpo": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Shub",
+                    "email": "vlad@yotpo.com"
+                }
+            ],
+            "description": "A PHP interface to the YOTPO API",
+            "homepage": "https://www.yotpo.com",
+            "keywords": [
+                "rest",
+                "yotpo"
+            ],
+            "support": {
+                "issues": "https://github.com/YotpoLtd/yotpo-php/issues",
+                "source": "https://github.com/YotpoLtd/yotpo-php/tree/v0.0.1"
+            },
+            "time": "2013-05-27T18:30:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

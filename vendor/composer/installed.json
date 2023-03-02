@@ -1,0 +1,116 @@
+{
+    "packages": [
+        {
+            "name": "nategood/httpful",
+            "version": "0.3.2",
+            "version_normalized": "0.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "reference": "0cded3ea97ba905600de9ceb9ef13f3ab681587c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "time": "2020-01-25T01:13:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/nategood/httpful/issues",
+                "source": "https://github.com/nategood/httpful/tree/v0.3.2"
+            },
+            "install-path": "../nategood/httpful"
+        },
+        {
+            "name": "yotpo/yotpo",
+            "version": "0.0.1",
+            "version_normalized": "0.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YotpoLtd/yotpo-php.git",
+                "reference": "c4cb9c67ee56b55679b909ec3d9393508f1f4dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YotpoLtd/yotpo-php/zipball/c4cb9c67ee56b55679b909ec3d9393508f1f4dc7",
+                "reference": "c4cb9c67ee56b55679b909ec3d9393508f1f4dc7",
+                "shasum": ""
+            },
+            "require": {
+                "nategood/httpful": "*",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@dev",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "time": "2013-05-27T18:30:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Yotpo": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Shub",
+                    "email": "vlad@yotpo.com"
+                }
+            ],
+            "description": "A PHP interface to the YOTPO API",
+            "homepage": "https://www.yotpo.com",
+            "keywords": [
+                "rest",
+                "yotpo"
+            ],
+            "support": {
+                "issues": "https://github.com/YotpoLtd/yotpo-php/issues",
+                "source": "https://github.com/YotpoLtd/yotpo-php/tree/v0.0.1"
+            },
+            "install-path": "../yotpo/yotpo"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

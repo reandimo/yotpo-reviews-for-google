@@ -1,0 +1,5 @@
+{
+    "require": {
+        "yotpo/yotpo": "^0.0.1"
+    }
+}

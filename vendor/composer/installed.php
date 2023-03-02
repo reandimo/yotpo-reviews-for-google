@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-development',
+        'version' => 'dev-development',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'cf2787aa0e5f9c8b7b1a266b45911fda8e8c5080',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-development',
+            'version' => 'dev-development',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'cf2787aa0e5f9c8b7b1a266b45911fda8e8c5080',
+            'dev_requirement' => false,
+        ),
+        'nategood/httpful' => array(
+            'pretty_version' => '0.3.2',
+            'version' => '0.3.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nategood/httpful',
+            'aliases' => array(),
+            'reference' => '0cded3ea97ba905600de9ceb9ef13f3ab681587c',
+            'dev_requirement' => false,
+        ),
+        'yotpo/yotpo' => array(
+            'pretty_version' => '0.0.1',
+            'version' => '0.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yotpo/yotpo',
+            'aliases' => array(),
+            'reference' => 'c4cb9c67ee56b55679b909ec3d9393508f1f4dc7',
+            'dev_requirement' => false,
+        ),
+    ),
+);
