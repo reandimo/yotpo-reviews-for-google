@@ -14,8 +14,8 @@
  * @package           YotpoReviewsForGoogle
  *
  * @wordpress-plugin
- * Plugin Name:       Yotpo Reviews For Google
- * Plugin URI:        https://reandimo.dev
+ * Plugin Name:       Yotpo Reviews For Google (Structured Data)
+ * Plugin URI:        https://github.com/reandimo/yotpo-reviews-for-google
  * Description:       Enable Yotpo reviews on google search results (structured data) for your products
  * Version:           1.0.0
  * Author:            Renan Diaz

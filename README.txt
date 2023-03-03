@@ -33,6 +33,10 @@ Yes. Installed and configured with an account.
 
 If the product has reviews on Yotpo then yes.
 
+= Does this plugin only works for Google? =
+
+No, this would work for any search engine that consumes information from structured data.
+
 == Changelog ==
 
 = 1.0.0 =
